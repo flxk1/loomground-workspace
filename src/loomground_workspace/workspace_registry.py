@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-License-Identifier: Apache-2.0
 # Copyright 2026 flxk1
 """Workspace registry — persistent list of folders the user has marked as
 Workspaces workspaces.

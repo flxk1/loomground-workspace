@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-License-Identifier: Apache-2.0
 # Copyright 2026 flxk1
 """Tests for loomground_workspace — the workspace concept, engine-free."""
 from __future__ import annotations
