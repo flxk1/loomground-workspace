@@ -5,7 +5,7 @@ Workspaces workspaces.
 
 Until now the dashboard kept this list in browser ``localStorage``. That
 loses everything when the user switches browser or reinstalls Cowork. This
-module persists the same list to ``<log_root>/known-rvnd.json`` so it
+module persists the same list to ``<log_root>/known-workspaces.json`` so it
 survives independently of whatever host is reading it.
 
 Format:
@@ -41,7 +41,7 @@ from typing import Any, Callable, Optional
 from .paths import LOG_ROOT_DEFAULT
 
 
-REGISTRY_FILE = "known-rvnd.json"
+REGISTRY_FILE = "known-workspaces.json"
 REGISTRY_VERSION = 1
 DEFAULT_WORKSPACE_DIR = Path.home() / "Documents" / "Workspaces"
 
