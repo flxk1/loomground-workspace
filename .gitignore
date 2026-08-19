@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+.DS_Store
+# The ctrl audit logger resolves its path relative to CWD and sprays
+# `_ctrl/audit-log.md` into whatever directory a session stands in — including
+# package source trees. Ignored so a tooling bug cannot reach a commit.
+work/
+_ctrl/
