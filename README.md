@@ -86,4 +86,4 @@ pytest -q
 
 ## Licence
 
-AGPL-3.0-only.
+Apache-2.0.

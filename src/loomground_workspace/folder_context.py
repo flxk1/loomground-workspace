@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: AGPL-3.0-only
+# SPDX-License-Identifier: Apache-2.0
 # Copyright 2026 flxk1
 """Skill-runtime ``folder_context`` injection — Phase 3 (A3).
 
