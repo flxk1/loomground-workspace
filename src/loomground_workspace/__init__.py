@@ -40,7 +40,7 @@ from .workspace_registry import (
     remove_known_workspace,
 )
 
-__version__ = "0.1.0"
+from ._version import __version__
 
 __all__ = [
     "__version__",
