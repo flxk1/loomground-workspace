@@ -9,7 +9,7 @@ description = "What a workspace is: how it is scoped, identified and registered 
 readme = "README.md"
 requires-python = ">=3.10"
 license = "Apache-2.0"
-license-files = ["LICENSE"]
+license-files = ["LICENSES/Apache-2.0.txt", "NOTICE"]
 authors = [{ name = "flxk1" }]
 keywords = ["workspace", "folder-identity", "scope", "registry"]
 dependencies = []
@@ -22,3 +22,7 @@ where = ["src"]
 
 [tool.setuptools.package-data]
 loomground_workspace = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
