@@ -2,6 +2,9 @@
 
 Workspace identity and boundary contract: how a workspace folder is scoped, identified, and registered.
 
+## Problem
+Every engine identifies "this folder" differently; records cannot be joined. One folder identity and registry contract.
+
 ## Install
 
 ```
@@ -17,6 +20,12 @@ add_known_workspace("~/Workspaces/alpha", log_root=lr)
 list_known_workspaces(log_root=lr)                    # ['alpha']
 list_known_workspaces(log_root=lr, scope=my_filter)   # host-scoped subset
 folder_hash("~/Workspaces/alpha")                     # hex identity
+```
+
+## Example
+```
+in : folder_hash("/Users/me/Documents/Contracts")
+out: 4c26f206a19b38f8be65a3d37f81169f
 ```
 
 ## Contracts
