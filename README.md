@@ -41,7 +41,7 @@ Semantics and the boundary test: `docs/semantics.md`.
 
 ## Family
 
-Workspace identity and boundary contract — a shared contract, not an engine component. Consumes: stdlib only · consumed by: RVND (the governing engine) and any host that scopes work to a folder · pipeline position: outside the reasoning pipeline; supplies the identity every per-workspace record hangs off. Engines import this package; a boundary test walks every module's AST for the reverse direction.
+Workspace identity and boundary contract — a shared contract, not an engine component. Consumes: stdlib only · consumed by any host that scopes work to a folder · pipeline position: outside the reasoning pipeline; supplies the identity every per-workspace record hangs off. Engines import this package; a boundary test walks every module's AST for the reverse direction.
 
 ## Status
 
