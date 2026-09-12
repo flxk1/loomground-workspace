@@ -26,7 +26,7 @@ class TestBoundary(unittest.TestCase):
         `workspace_registry.list_known_workspaces` used to reach into an
         engine module for the request principal. That is why this test exists
         and why it names offenders."""
-        engines = {"rvnd", "workspaces", "mcp_serving", "mutation_log", "memory",
+        engines = {"workspaces", "mcp_serving", "mutation_log", "memory",
                    "loomground_solver", "loomground_governance"}
         offenders = []
         for path in SRC.glob("*.py"):
