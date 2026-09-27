@@ -17,7 +17,7 @@ pip install git+https://github.com/flxk1/loomground-workspace
 from loomground_workspace import add_known_workspace, folder_hash, list_known_workspaces
 
 add_known_workspace("~/Workspaces/alpha", log_root=lr)
-list_known_workspaces(log_root=lr)                    # ['alpha']
+list_known_workspaces(log_root=lr)                    # [{'path': …, 'label': '', 'added_at': …}]
 list_known_workspaces(log_root=lr, scope=my_filter)   # host-scoped subset
 folder_hash("~/Workspaces/alpha")                     # hex identity
 ```
@@ -46,6 +46,10 @@ Workspace identity and boundary contract — a shared contract, not an engine co
 ## Status
 
 Version 0.1.0 · 12 tests · 0 dependencies · Python >=3.10.
+
+## How this is made
+
+The code and documentation are written with Loomground agents running on Claude (Anthropic). The maintainer reads and corrects all of it.
 
 ## License
 

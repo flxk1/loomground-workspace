@@ -33,10 +33,10 @@ list_known_workspaces(log_root=lr, scope=lambda ws: [w for w in ws if mine(w)])
 ```
 
 ```
-known           : ['alpha', 'beta']
-host-scoped     : ['alpha']
-identity        : 7890a2219e880b4c
-legacy identity : fa231ca27ce1dd0d
+known           : [{'path': '…/alpha', …}, {'path': '…/beta', …}]
+host-scoped     : [{'path': '…/alpha', …}]
+identity        : folder_hash(path), 32 hex characters
+legacy identity : legacy_folder_hash(path), 32 hex characters
 ```
 
 ## What is here

@@ -15,7 +15,7 @@ pip install git+https://github.com/flxk1/loomground-workspace
 from loomground_workspace import add_known_workspace, folder_hash, list_known_workspaces
 
 add_known_workspace("~/Workspaces/alpha", log_root=lr)
-list_known_workspaces(log_root=lr)                    # ['alpha']
+list_known_workspaces(log_root=lr)                    # [{'path': …, 'label': '', 'added_at': …}]
 list_known_workspaces(log_root=lr, scope=my_filter)   # host-scoped subset
 folder_hash("~/Workspaces/alpha")                     # hex identity
 ```
