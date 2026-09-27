@@ -49,7 +49,7 @@ Version 0.1.0 · 12 tests · 0 dependencies · Python >=3.10.
 
 ## How this is made
 
-The code and documentation are written with Loomground agents running on Claude (Anthropic). The maintainer reads and corrects all of it.
+The code and documentation are written with Loomground agents. The maintainer reads and corrects all of it.
 
 ## License
 
